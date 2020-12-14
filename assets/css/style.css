@@ -191,11 +191,11 @@ img{
 
 /* === HOME === */
 .home{
-    background-color: var(--dark-color-lighten);
+    background-color: rgb(82, 82, 237);
     overflow: hidden;
 }
 .home__container{
-    height: calc(100vh - var(--header-height));
+    height: calc(80vh - var(--header-height));
     padding: 1rem;
 }
 .home__header{ 
@@ -206,27 +206,34 @@ img{
 }
 .home__shape{
     width: 220px;
-    height: 220px;
-    /* background-col  */
+    height: 200px;
+    /* background-color: #141414;
+    border-radius: 50%; */
 }
 .home__img{
     position: absolute;
     top: 1.5rem;
     max-width: initial;
-    width: 275px;
+    /* width: 275px;  */
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 .home__new{
     display: block;
-    font-size: var(--smaller-font-size);
-    font-weight: var(--font-semi-bold);
+    font-size: 1rem;
+    font-weight: 900;
     margin-bottom: var(--mb-2);
+    color: var(--white-color);
 }
 .home__title{
     font-size: 26px;
-    font-weight: 600;
+    font-weight: 900;
+    color: white;
     margin-bottom: var(--mb-1);
 }
 .home__description{
+    color: white;
     margin-bottom: var(--mb-1);
 }
 
