@@ -47,3 +47,14 @@ window.onscroll = ()=>{
     const nav = document.getElementById('header')
     if(history.scrollY >= 200 ) nav.classList.add('scroll-header'); else nav.classList.remove('scroll-header')
 }
+
+
+// Open the full screen search box
+function openSearch() {
+    document.getElementById("myOverlay").style.display = "block";
+  }
+  
+  // Close the full screen search box
+  function closeSearch() {
+    document.getElementById("myOverlay").style.display = "none";
+  }
