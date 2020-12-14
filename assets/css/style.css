@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); */
 /* === CSS VARIABLES === */
 :root{
     --header-height: 3rem;
@@ -436,7 +436,7 @@ img{
   .section-home{
       margin: 2rem 0;
       height: 80vh;
-      background-color: #371ae0;
+      background-color: #4a31da;
   }
   .section-home .container{
       display: grid;
